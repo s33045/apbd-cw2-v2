@@ -1,10 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-<<<<<<< HEAD
 Console.WriteLine("My great app");
-=======
 
 Console.WriteLine("My application");
->>>>>>> feature-conflict
 
 double CalculateAverage(int[] values)
 {
