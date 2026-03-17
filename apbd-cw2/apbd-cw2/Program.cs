@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+Console.WriteLine("My application");
 
 double CalculateAverage(int[] values)
 {
-    return  values.Average();
+    return values.Average();
 }
 
 int CalculateMax(int[] values)
@@ -13,8 +14,8 @@ int CalculateMax(int[] values)
 
 int CalculateMin(int[] values)
 {
-    if  (values.Length == 0)
+    if (values.Length == 0)
         throw new ArgumentException("No array in values were provided");
-    
+
     return values.Min();
 }
