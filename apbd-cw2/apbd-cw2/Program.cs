@@ -5,3 +5,8 @@ double CalculateAverage(int[] values)
 {
     return  values.Average();
 }
+
+int CalculateMax(int[] values)
+{
+    return values.Max();
+}
