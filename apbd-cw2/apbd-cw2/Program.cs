@@ -16,7 +16,7 @@ int CalculateMax(int[] values)
 int CalculateMin(int[] values)
 {
     if (values.Length == 0)
-        throw new ArgumentException("No array in values were provided");
+        throw new ArgumentException("No values in array were provided");
 
     return values.Min();
 }
